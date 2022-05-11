@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html, body{
+
+  max-width: 100%;
+  overflow-x: hidden;
+
+}
+
+header {
+  max-width: 93%;
+  margin-left: 0;
+
+}
+
+.container {
+  background-color: #000000;
+  background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 8em;
+ 
+f
+  
+  
+
+  
+}
+
+.container h1 {
+  font-family: "Crete Round", serif;
+  font-size: 65px;
+  justify-content: center;
+  color: white;
+  
+  
+
+
+
+}
+
+
+.container .btn button {
+  margin-top: 2%;
+  font-size: 27px;
+  font-family: "Crete Round", serif;
+  text-align: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin: 1%;
+  margin-top: 5%;
+  border-radius: 29px;
+  
+
+
+}
+
+
+
+
+.btn button a {
+  color: black;
+  text-align: center;
+}
+
+.btn button:hover{
+
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+
+.competences h1 {
+
+    font-size: 45px;
+    font-family: "Crete Round", serif; 
+    margin-top: 5%;
+    padding: 2%;
+    text-align: center;
+    margin-top: 1%;
+
+}
+
+.competences .logo img{
+
+    height: 7%;
+    width: 7%;
+
+}
+
+
+.logo{
+    
+    margin:3%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+
+   
+
+}
+
+.projet{
+
+    width: 100%;
+    height: 100%;
+   
+    
+}
+
+#titre-projet{
+    margin-top: 2%;
+    text-align: center;
+    font-family: "Crete Round", serif; 
+    font-size: 45px;
+
+}
+
+/* .logo img:hover{
+
+
+    width: 10%;
+    transition: 0.3;
+} */
+
+.square{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    background-color: red;
+}
+
+header p {
+
+    font-size: 30px;
+    color: aliceblue;
+    font-family: 'Lora', serif;
+    font-weight: bolder;
+    margin-top: 2%
+
+
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+}
+
+.projet-img{
+
+    
+    margin: 3%;
+    
+    width: 10%;
+    height: 10%;
+    padding: 5%;
+    border-radius: 4%;
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+
+}
+
+.line{
+    border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #CCC, transparent); 
+}
+
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:start;
+  margin-left: 12%;
+  max-width: 1200px;
+  margin-block: 2rem;
+  gap: 2rem;
+  font-family: 'Lora', serif;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: clamp(20rem, calc(20rem + 2vw), 22rem);
+  overflow: hidden;
+  box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  background: #ECE9E6;
+background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+
+}
+
+.container-card img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+
+.card__body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.tag {
+  align-self: flex-start;
+  padding: .25em .75em;
+  border-radius: 1em;
+  font-size: .75rem;
+}
+
+
+
+
+.tag + .tag {
+  margin-left: .5em;
+}
+
+.tag-blue {
+  background: #56CCF2;
+background: linear-gradient(to bottom, #2F80ED, #56CCF2);
+  color: #fafafa;
+}
+
+.tag-brown {
+  background: #D1913C;
+background: linear-gradient(to bottom, #FFD194, #D1913C);
+  color: #fafafa;
+}
+
+.tag-red {
+  background: #cb2d3e;
+background: linear-gradient(to bottom, #ef473a, #cb2d3e);
+  color: #fafafa;
+}
+
+.card__body h4 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.card__footer {
+  display: flex;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+.user {
+  display: flex;
+  gap: .5rem;
+}
+
+.user__image {
+  border-radius: 50%;
+}
+
+.user__info > small {
+  color: #666;
+
+}
+
+.user  a {
+
+  color:#666;
+  font-weight: bolder;
+  text-decoration: none;
+  
+}
+
+.contact h1 {
+
+  font-size: 45px;
+    font-family: "Crete Round", serif; 
+    margin-top: 5%;
+    padding: 2%;
+    text-align: center;
+    margin-top: 1%;
+}
+.coordonnes{
+
+  font-family: "Crete Round", serif;
+  text-align: center;
+
+}
+
+/* media querie */  
+
+
+@media screen and  (max-width: 844px) {
+
+
+
+
+
+
+.container {
+
+
+ padding: 1em;
+  
+}
+
+
+
+.container-card{
+
+  margin-right: 10%;
+}
+
+.competences h1{
+
+  
+  font-size: 22px;
+}
+
+.contact h1 {
+  font-size: 22px;
+
+}
+
+#titre-projet {
+
+  font-size: 25px;
+}
+
+}
+
